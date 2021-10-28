@@ -12,7 +12,7 @@ export function Home() {
     const newTask = {
       id: new Date().getTime(),
       title: newTaskTitle,
-      done: false,
+      done: false
     }
 
     setTasks(oldTasks => [...oldTasks, newTask])
